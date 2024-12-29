@@ -1,0 +1,294 @@
+*body{
+
+    margin: 0;
+    padding: 0;
+   
+}
+/*this is for header section css*/
+.head{
+    background-image: url(lantern-6894507_1280.jpg);
+    width: 100%;
+    height: 687PX;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head2{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.logo{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.head1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 130px;
+    width: 50%;
+    padding-right: 10px;
+    padding-top: 15px;
+    text-decoration: none;
+   
+}
+
+
+.a1{
+    text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 14px;
+color: #b34c23;
+}
+.a1:hover{
+color: white;
+border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+.btn1{
+    height: 25px;
+    width: 95px;
+    color: white;
+    border: none;
+    background-color:#b34c23 ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.btn1:hover{
+color:#b34c23;
+background-color:#ec9345 ;
+}
+
+
+
+
+/* this is heading section css*/
+
+.container{
+    
+    height: 400px;
+    width: 40%;
+
+    
+    
+    
+}
+.h1,.h2{
+    font-size: 25px;
+    justify-items: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 3px;
+    
+
+    
+
+}
+.btn2{
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+    width: 150px;
+    background-color: #b34c23;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    word-spacing: 3px;
+
+
+}
+.btn2:hover{
+    background-color: #ec9345;
+    color: #b34c23;;
+}
+.container2{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height: 460px;
+background-color: #721b0c;
+
+
+
+
+}
+.container2,.con1{
+display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.con1{
+    padding-left: 30px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 60%;
+    
+    
+}
+.con2{
+    font-size: 20px;
+}
+.con3{
+    font-size: 35px;
+}
+.p{
+    font-size: 20px;
+}
+
+
+.btn3{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   width: 120px;
+   height: 20px;
+    background-color: #b34c23;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    word-spacing: 3px;
+
+
+}
+.btn3:hover{
+    background-color: #ec9345;
+    color: #b34c23;;
+}
+.container4{
+    width: 100%;
+    height: 500px;
+    background-color: #b34c23;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+.card{
+    width: 150px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+
+  .card:hover::after {
+    opacity: 1;
+  }
+  .container5{
+    width: 100%;
+    height: 500px;
+    background-color:#721b0c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.card1{
+    width:200px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.card1:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+
+  .card1:hover::after {
+    opacity: 1;
+  }
+  #h1{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .container6{
+    width: 100%;
+    height: 500px;
+    background-color:#721b0c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+/* Contact Section */
+.contact1 {
+    padding: 50px 20px;
+    background-color:#fff;
+    text-align: center;
+}
+
+.contact1 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact1 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact1 form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact1 input,
+.contact1 textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact1 button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.contact1 button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
